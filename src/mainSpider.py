@@ -2,9 +2,9 @@ import logging
 import logging.config
 import threading
 from datetime import datetime, timedelta
-from spiders.gme import *
+from src.spiders.gme import *
 from common.config import *
-from spiders.processor import *
+from src.spiders.processor import *
 
 
 class GmeTh(threading.Thread):
