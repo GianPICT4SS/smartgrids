@@ -3,22 +3,27 @@ from lxml import html
 import webbrowser
 from robobrowser import RoboBrowser
 
-USERNAME = "s26753%40studenti.polito.it" #s267534@studenti.polito.it
+USERNAME = "s267534@studenti.polito.it"
 PASSWORD = "SmartGridProject!"
 
-LOGIN_URL = "https://transparency.entsoe.eu/homepageLogin"
+LOGIN_URL = f"https://transparency.entsoe.eu/login?&username={USERNAME}&password={PASSWORD}"
 URL = "https://transparency.entsoe.eu/dashboard/show"
 
 def main():
 
     session_requests = requests.session()
-    result = session_requests.get(LOGIN_URL)
-
-    f = open("dashboard.html", "a")
+    result = session_requests.post(LOGIN_URL)
+    f = open("dashboard.html", "w")
     f.write(result.text)
     f.close()
     webbrowser.open("dashboard.html")
 
+    # TODO puoi cancellare le linee seguenti. La logica dello spider, almeno in questo caso, non è quella di procedere passo passo.
+    # In pratica una volta fatto il login con la sessione, parti direttamente a fare le richieste get mirate per ottenere i dati.
+    # Non c'è bisogno di simulare il click o altro. 
+    # Quindi, in fase di debug va benissimo, ma a livello pratico e di implementazione bastano le due righe 14 e 15 per fare il login senza
+    # bisogno di salvarti l'html e di visualizzarlo.
+    """
     payload = {
         "username": USERNAME,
         "password": PASSWORD
@@ -29,8 +34,10 @@ def main():
     data = payload,
     headers = dict(referer=LOGIN_URL)
     )
+    """
     print("first get: " + str(result.ok))
     print("SC :" + str(result.status_code))
+    
     '''
 
 
