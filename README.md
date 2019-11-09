@@ -18,6 +18,11 @@ Open a terminal in the project folder and run
 ```
 # sudo pip3 install -r requirements.txt
 ```
+## Install geckodrivers for Selenium
+Download the latest geckodrivers from ```https://github.com/mozilla/geckodriver/releases``` and copy the file in ```/usr/local/bin```.
+
+## Paths
+Change the download path in ```src/common/config.py```
 
 ### Logs
 The log messages are displayed in the console thanks to the logging module. Five levels are used (the WARNING, ERROR and CRITICAL level are also saved in the ``` src/logging.conf ``` file.
@@ -39,5 +44,24 @@ logger.error('error message')
 logger.critical('critical message')
 ```
 
+## Access to MongoDB
+* With ```pymongo```, use the following code to connect to the database:
+```
+from pymongo import MongoClient
+
+client = MongoClient(
+         "mongodb+srv://new-user:politomerda@cluster0-awyti.mongodb.net/test?retryWrites=true&w=majority"
+         )
+
+collection = client['InterProj']['<collection_name>']
+```
+where ```<collection_name>``` is the type of market you are interested in (e.g. 'MGPFabbisogno', 'MI1LimitiTransito', etc.).
+
+Use ```pymongo``` functions to retrieve documents.
+
+* Using Robo3T, create a new connection; copy and paste the connection string 
+(```mongodb+srv://new-user:politomerda@cluster0-awyti.mongodb.net/test?retryWrites=true&w=majority```) in the text box
+ 'Import connection details from MongoDB SRV connection string'; click on the 'From SRV' button and
+ finally 'Save' the connection.
 ## 
 (c) 2019, Gian Pio Domiziani, Luca Gioacchini, Francesco Guaiana, Bruno Valente
