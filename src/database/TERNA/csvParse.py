@@ -1,30 +1,86 @@
 """ The parse has to convert the input CSV into a JSON file in order to load it on a 
      MongoDB DataBase 
 """
-import sys
 import json
-import pandas as pd 
-from collections import defaultdict, Counter, OrderedDict
+import pandas as pd
+import logging
 
-#read csv from a path
-df_csv = pd.read_csv("/Users/gianpiodomiziani/Desktop/data.csv",
-                     sep=";",
-                     skiprows=(lambda x: x in [0]),
-                     header=None,
-                     index_col=False
-                    )
-#convert the CSV into a json, then into a dictionary with the structure: 
-#orient=‘split’ : dict like {‘index’ -> [index], ‘columns’ -> [columns], ‘data’ -> [values]}
 
-data_json =json.loads(df_csv.to_json(orient='split'))
-#takes only the data values, where each value is: (MM/DD/YY H, point), where point is the values 
-#of the specific physical quantity
-data = data_json['data']
+class ParseCsv:
+    """A Parse class used to parse CSV file into json file for processing them on a MongoDB.
 
-start = data[1][0] #data start
-end = data[len(data)-1][0] #data end
-#makes a dict with key: DD/MM/YY H, value=point
-data_dict = {key: value for key,value in data}
+    Attributes
+    ----------
+        target : str
+            the type of files to process ('history' or 'daily')
+        log : logging.logger
+            logger instance to display and save logs
+        db : pymongo.database.Database
+            the database to use
+
+    Methods
+    -------
+
+        read_csv()
+        to_list()
+        to_dict()
+
+
+    """
+
+    @staticmethod
+    def read_csv(path, sep=';', header=None, index_col=None, skiprows=None):
+
+        """
+        reads a csv, located in a specific path, transforming it into a pandas.Dataframe
+
+         :param path: str, path csv path
+         :param skiprows: list-like, int or callable, optional. Line numbers to skip (0-indexed) or number of lines
+                    to skip (int) at the start of the file.
+         :param index_col: int, str, list of int/str; default None, Column(s) to use as the row labels of the
+                    DataFrame, either given as string name or column index.
+         :param sep: str, default ';'
+         :param header: nt, list of int, Row number(s) to use as the column names, and the start of the data
+
+        """
+        # read csv from a path
+        try:
+            df_csv = pd.read_csv(filepath_or_buffer=path, sep=sep, header=header, index_col=index_col, skiprows=skiprows)
+            return df_csv
+        except Exception as e:
+            logging.error("Exception occurred", exc_info=True)
+
+
+
+    @staticmethod
+    def to_list(df_csv):
+        """ Converts a CSV DataFrame into a list: useful for doing some operation before to build the JSON file
+        :parameter df_csv = a CSV DataFrame
+
+        :return data = list
+        """
+
+        # orient=‘split’ : dict like {‘index’ -> [index], ‘columns’ -> [columns], ‘data’ -> [values]}
+        try:
+            data_json = json.loads(df_csv.to_json(orient='split'))
+            # takes only the data values of the specific physical quantity
+            data = data_json['data']
+            if data[0] == (None, None):
+                del data[0]
+            return data
+        except Exception as e:
+            logging.error("Exception occurred", exc_info=True)
+
+
+
+    @staticmethod
+    def to_dict(data):
+        """ Converts a list of data into a dictionary """
+
+        data_dict = {key: value for key, value in data}
+        return data_dict
+
+
 
 """
 TO DO LIST: data from Terna are all different because them aren't all same physical quantity 
