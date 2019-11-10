@@ -1,8 +1,8 @@
 import os
 import time
 import requests as req
-from common.config import *
-import common.config as conf
+from src.common.config import *
+import src.common.config as conf
 from zipfile import ZipFile
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys

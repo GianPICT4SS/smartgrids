@@ -3,7 +3,7 @@ import logging.config
 import threading
 from datetime import datetime, timedelta
 from src.spiders.gme import *
-from common.config import *
+from src.common.config import *
 from src.spiders.processor import *
 
 
