@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2039d319-6626-4dd0-b838-df7c6eb7ead9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="GMEspider" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\franc\Desktop\ICT\Primo Semestre II\Interdisciplinary projects\repo\smartgrids\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SpSYV8Kz01REuDxh6YLFaWzngn" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\franc\Desktop\ICT\Primo Semestre II\Interdisciplinary projects\repo\smartgrids\src\spiders" />
+      <recent name="C:\Users\franc\Desktop\ICT\Primo Semestre II\Interdisciplinary projects\repo\smartgrids" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.entsoe">
+    <configuration name="entsoe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="smartgrids" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spiders/entsoe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="smartgrids" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spiders/login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="smartgrids" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spiders/scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="terna" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="smartgrids" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spiders/terna.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="smartgrids" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\franc\Desktop\ICT\Primo Semestre II\Interdisciplinary projects\repo\smartgrids\src\spiders\terna.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.entsoe" />
+        <item itemvalue="Python.terna" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python.scraper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2039d319-6626-4dd0-b838-df7c6eb7ead9" name="Default Changelist" comment="" />
+      <created>1572259091263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572259091263</updated>
+      <workItem from="1572259093039" duration="1087000" />
+      <workItem from="1572263468213" duration="2730000" />
+      <workItem from="1572439567445" duration="16066000" />
+      <workItem from="1572712836641" duration="2501000" />
+      <workItem from="1572805113897" duration="1571000" />
+      <workItem from="1572970437881" duration="10454000" />
+      <workItem from="1572992655704" duration="4265000" />
+      <workItem from="1573121869525" duration="17711000" />
+      <workItem from="1573387975362" duration="1872000" />
+    </task>
+    <task id="LOCAL-00001" summary="Entsoe Web Crawler&#10;Primi tentativi con requests e lxml, login session. &#10;____&#10;Ho scaricato un po' di dati da questo www.entsoe.eu. &#10;Ho riassunto alcune features dello scraper e dell'analisi &#10;delle pagine del sito in questione in un documento (Word al momento).">
+      <created>1572457840921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572457840921</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Entsoe Web Crawler&#10;Primi tentativi con requests e lxml, login session. &#10;____&#10;Ho scaricato un po' di dati da questo www.entsoe.eu. &#10;Ho riassunto alcune features dello scraper e dell'analisi &#10;delle pagine del sito in questione in un documento (Word al momento).&#10;Update by Ciccio 2 Novembre. &#10;&#10;Il mio task per il 22 di Novembre è lavorare in parallelo con Luca nella realizzazione &#10;dei web crawler + Fase di ricerca e studio sugli articoli che ho arbitrariamente selezionato. &#10;Parte 1: WEB CRAWLER: &#10;&#10;Luca ha deciso di annichilire la GME. &#10;A me è toccato il sito entsoe.eu.&#10;Ho preparato un doc che sto allegando qui e caricando nel portale&#10;per descrivere il problema passo dopo passo e le info più importanti sul sito in questione. &#10;Sto procedendo a pushare il branch. Stato delle cose: &#10;ho implementato due sessioni per il login- login.py  e login2.py &#10;Ho provato ad analizzare le richieste GET della suddetta sessione &#10;al link: &#10;link primario: https://transparency.entsoe.eu/&#10;link login: https://transparency.entsoe.eu/homepageLogin?url=%2Fdashboard%2Fshow&amp;username=s267534%40studenti.polito.it&amp;password=SmartGridProject!&#10;come potete vedere bisogna fare attenzione alla codifica %40 della @&#10;e ai parametri che vengono passati da quella che sull'HTML viene definita una richiesta POST, ma che sull'ispezione &#10;dell'elemento al SIGN IN /action --&gt; viene descritta come funzione get per accedere al link:&#10;&#10;https://transparency.entsoe.eu/dashboard/show&#10;&#10;&#10;una volta entrati_ &#10;ho cominciato a osservare i file downloadabili. &#10;notando le feature discriminanti per avviare il download giusto. &#10;&#10;Purtroppo in questi ultimi 3 giorni, non ci ho messo mano. ho lavorato ad altre cose&#10;( video editing) e raspberry per IoT. &#10;Ho tante cose da sistemare nel codice, tantissime!&#10;ma la mia prossima settimana sarà dedicata a quello e spero nell'aiuto di luca &#10;per poter risolvere qualche problema dovuto alla mia scarna abilità di programmazione web. &#10;&#10;Detto questo, questa sera c'è la Juve.. fatemela godere &#10;e domani rimetto mani sul codice!&#10;P.S: Scrivete qui per qualche altra info... . &#10;Per le chiamate famo domani. &#10;&#10;PARTE 2:  Research &#10;&#10;Testi selezionati: &#10;1.(Bompard) Bidding strategy with forecast technology based on support vector machine in the electricity market&#10;2.Competitive Strategic Bidding Optimization inElectricity Markets Using Bilevel Programming and Swarm Technique&#10;3. Strategic bidding in vertically integrated power markets with an application to the Italian electricity auctions">
+      <created>1572721188856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572721188856</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update by Ciccio: &#10;&#10;config: EntsoeLoad credits - auth credits and list of attributes&#10;chromedriver.exe: web driver di chrome per usare Selenium (penso di poter usare Gekodriver)&#10;entsoe: spider funzionante in cui bisogna però aggiungere uno scheduling e il settaggio automatico di alcuni parametri, che al momento passo dal codice&#10;gme.py: per accedere al config file ho dovuto aggiunger src.commom.config&#10;mainSpider: bisogna chimare lì il main di entsoe &#10;CTA.csv: al momento è uil download del carico di Entsoe.. posso acquisirlo in tutti i formati&#10;terna: sto iniziando a provare qualcosa per terna. &#10;&#10;&#10;------&#10;Research: &#10;Oggi vi carico riassunti delle mie parti di letteratura!&#10;Ho già acquisito i dati di Terna per gli utlimi 365 gg. Fatemi sapere come vogliamo gestirli.">
+      <created>1573388859539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573388859539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Entsoe Web Crawler&#10;Primi tentativi con requests e lxml, login session. &#10;____&#10;Ho scaricato un po' di dati da questo www.entsoe.eu. &#10;Ho riassunto alcune features dello scraper e dell'analisi &#10;delle pagine del sito in questione in un documento (Word al momento)." />
+    <MESSAGE value="Entsoe Web Crawler&#10;Primi tentativi con requests e lxml, login session. &#10;____&#10;Ho scaricato un po' di dati da questo www.entsoe.eu. &#10;Ho riassunto alcune features dello scraper e dell'analisi &#10;delle pagine del sito in questione in un documento (Word al momento).&#10;Update by Ciccio 2 Novembre. &#10;&#10;Il mio task per il 22 di Novembre è lavorare in parallelo con Luca nella realizzazione &#10;dei web crawler + Fase di ricerca e studio sugli articoli che ho arbitrariamente selezionato. &#10;Parte 1: WEB CRAWLER: &#10;&#10;Luca ha deciso di annichilire la GME. &#10;A me è toccato il sito entsoe.eu.&#10;Ho preparato un doc che sto allegando qui e caricando nel portale&#10;per descrivere il problema passo dopo passo e le info più importanti sul sito in questione. &#10;Sto procedendo a pushare il branch. Stato delle cose: &#10;ho implementato due sessioni per il login- login.py  e login2.py &#10;Ho provato ad analizzare le richieste GET della suddetta sessione &#10;al link: &#10;link primario: https://transparency.entsoe.eu/&#10;link login: https://transparency.entsoe.eu/homepageLogin?url=%2Fdashboard%2Fshow&amp;username=s267534%40studenti.polito.it&amp;password=SmartGridProject!&#10;come potete vedere bisogna fare attenzione alla codifica %40 della @&#10;e ai parametri che vengono passati da quella che sull'HTML viene definita una richiesta POST, ma che sull'ispezione &#10;dell'elemento al SIGN IN /action --&gt; viene descritta come funzione get per accedere al link:&#10;&#10;https://transparency.entsoe.eu/dashboard/show&#10;&#10;&#10;una volta entrati_ &#10;ho cominciato a osservare i file downloadabili. &#10;notando le feature discriminanti per avviare il download giusto. &#10;&#10;Purtroppo in questi ultimi 3 giorni, non ci ho messo mano. ho lavorato ad altre cose&#10;( video editing) e raspberry per IoT. &#10;Ho tante cose da sistemare nel codice, tantissime!&#10;ma la mia prossima settimana sarà dedicata a quello e spero nell'aiuto di luca &#10;per poter risolvere qualche problema dovuto alla mia scarna abilità di programmazione web. &#10;&#10;Detto questo, questa sera c'è la Juve.. fatemela godere &#10;e domani rimetto mani sul codice!&#10;P.S: Scrivete qui per qualche altra info... . &#10;Per le chiamate famo domani. &#10;&#10;PARTE 2:  Research &#10;&#10;Testi selezionati: &#10;1.(Bompard) Bidding strategy with forecast technology based on support vector machine in the electricity market&#10;2.Competitive Strategic Bidding Optimization inElectricity Markets Using Bilevel Programming and Swarm Technique&#10;3. Strategic bidding in vertically integrated power markets with an application to the Italian electricity auctions" />
+    <MESSAGE value="Update by Ciccio: &#10;&#10;config: EntsoeLoad credits - auth credits and list of attributes&#10;chromedriver.exe: web driver di chrome per usare Selenium (penso di poter usare Gekodriver)&#10;entsoe: spider funzionante in cui bisogna però aggiungere uno scheduling e il settaggio automatico di alcuni parametri, che al momento passo dal codice&#10;gme.py: per accedere al config file ho dovuto aggiunger src.commom.config&#10;mainSpider: bisogna chimare lì il main di entsoe &#10;CTA.csv: al momento è uil download del carico di Entsoe.. posso acquisirlo in tutti i formati&#10;terna: sto iniziando a provare qualcosa per terna. &#10;&#10;&#10;------&#10;Research: &#10;Oggi vi carico riassunti delle mie parti di letteratura!&#10;Ho già acquisito i dati di Terna per gli utlimi 365 gg. Fatemi sapere come vogliamo gestirli." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update by Ciccio: &#10;&#10;config: EntsoeLoad credits - auth credits and list of attributes&#10;chromedriver.exe: web driver di chrome per usare Selenium (penso di poter usare Gekodriver)&#10;entsoe: spider funzionante in cui bisogna però aggiungere uno scheduling e il settaggio automatico di alcuni parametri, che al momento passo dal codice&#10;gme.py: per accedere al config file ho dovuto aggiunger src.commom.config&#10;mainSpider: bisogna chimare lì il main di entsoe &#10;CTA.csv: al momento è uil download del carico di Entsoe.. posso acquisirlo in tutti i formati&#10;terna: sto iniziando a provare qualcosa per terna. &#10;&#10;&#10;------&#10;Research: &#10;Oggi vi carico riassunti delle mie parti di letteratura!&#10;Ho già acquisito i dati di Terna per gli utlimi 365 gg. Fatemi sapere come vogliamo gestirli." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/smartgrids$scarper.coverage" NAME="scarper Coverage Results" MODIFIED="1572448327191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spiders" />
+    <SUITE FILE_PATH="coverage/smartgrids$login.coverage" NAME="login Coverage Results" MODIFIED="1573140121364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spiders" />
+    <SUITE FILE_PATH="coverage/smartgrids$entsoe.coverage" NAME="entsoe Coverage Results" MODIFIED="1573388478099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spiders" />
+    <SUITE FILE_PATH="coverage/smartgrids$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1572721025824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spiders" />
+    <SUITE FILE_PATH="coverage/smartgrids$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1572977837139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spiders" />
+    <SUITE FILE_PATH="coverage/smartgrids$scraperexample.coverage" NAME="scraperexample Coverage Results" MODIFIED="1572976515482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smartgrids$terna.coverage" NAME="terna Coverage Results" MODIFIED="1573388402689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spiders" />
+    <SUITE FILE_PATH="coverage/smartgrids$mainSpider.coverage" NAME="mainSpider Coverage Results" MODIFIED="1572288619557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/smartgrids$test.coverage" NAME="test Coverage Results" MODIFIED="1573326405964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
